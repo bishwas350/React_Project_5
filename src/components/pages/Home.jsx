@@ -11,14 +11,13 @@ import Footer from '../layout/Footer'
 const Home = () => {
   return (
     <>
-        <Header/>
+        
         <Banner/>
         <Guarantee/>
         <PromotionPart/>
         <Product_Part/>
         <Clock/>
         <SpacialPart/>
-        <Footer/>
     </>
   )
 }

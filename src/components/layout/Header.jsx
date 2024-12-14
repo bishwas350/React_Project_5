@@ -10,6 +10,7 @@ import { IoIosSearch } from "react-icons/io";
 import { FaUserAlt } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
+import { Link } from 'react-router'
 
 
 
@@ -21,12 +22,21 @@ const Header = () => {
             <Container>
                 <Flex className={'justify-between'}>
                     <div className="w-[40%]">
+                        <Link to={'/'}>
                         <Image imgSrc={Logo}/>
+
+                        </Link>
                     </div>
                     <div className="w-[60%]">
                         <Menu className={"text-menuColor text-[14px]"}>
+                            <Link to={"/"}>
                             <li className={'hover:text-menuColor2 hover:font-bold'}>Home</li>
+
+                            </Link>
+                            <Link to={"/Shop"}>
                             <li className={'hover:text-menuColor2 hover:font-bold'}>Shop</li>
+
+                            </Link>
                             <li className={'hover:text-menuColor2 hover:font-bold'}>About</li>
                             <li className={'hover:text-menuColor2 hover:font-bold'}>Contacts</li>
                             <li className={'hover:text-menuColor2 hover:font-bold'}>Journal</li>

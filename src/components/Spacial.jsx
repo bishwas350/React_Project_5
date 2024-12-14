@@ -31,7 +31,7 @@ const Spacial = () => {
                         <Heading as={'h3'} text={'Basic Crew Neck Tee'} className={'font-bold text-[20px]'}/>
                         <Heading as={'h3'} text={'$44.00'} className={'text-[16px] leading-[30%] text-menuColor'}/>
                     </div>
-                    <div className="p-7 absolute bottom-16 left-0 w-full hidden hover:duration-100 group-hover:block">
+                    <div className="p-7 absolute bottom-16 left-0 w-full hidden hover:duration-100 group-hover:block ">
                         <div className="justify-end flex items-center gap-x-2">
                         <span className='text-menuColor text-[16px] hover:text-menuColor2 hover:font-bold'>Add to Wish List</span><FaHeart />
                         </div>
