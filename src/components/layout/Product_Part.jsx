@@ -5,11 +5,11 @@ import Products from '../Products'
 const Product_Part = () => {
   return (
     <>
-    <div className="py-6 ">
+      <div className="py-6 ">
         <Container>
-            <Products/>
+          <Products />
         </Container>
-    </div>
+      </div>
     </>
   )
 }
